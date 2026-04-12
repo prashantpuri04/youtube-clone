@@ -1,8 +1,8 @@
 import './App.css'
 import Head from './components/Head';
 import Body from './components/Body';
-import Sidebar from './components/Sidebar';
-
+import store from './utils/store';
+import { Provider } from 'react-redux';
 /**
  * 
  * @returns Head 
@@ -19,12 +19,13 @@ function App() {
   
   return (
     <>
+    <Provider store={store}>
     <div>
       <Head />
       <Body />
       
     </div>
-     
+     </Provider>
     </>
   )
 }
