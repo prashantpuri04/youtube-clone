@@ -1,6 +1,5 @@
 // Make sure YouTube Data API v3 is enabled for this key in Google Cloud.
 // If you get 403, check API key restrictions and allow localhost if using local dev.
-const GOOGLE_API_KEY = "AIzaSyBOibaIGPBAIqOmyMmpl5dav5fyJvaFvpQ";
 
 export const LIVE_CHAT_COUNT = 25;
 
